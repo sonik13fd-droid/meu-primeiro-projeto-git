@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cormorant Garamond", serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.img-log {
+    display: inline-block;
+    margin: 163px 0 0 123px;
+}
+
+div {
+    display: inline-block;
+    margin-left: 84px;
+     width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596534px;
+    color: #161A49;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+
+   
+}
+
+#link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+   
+  
+}
+ 
+@media screen and  (max-width:900px)
+ 
+{ .img-log{ width: 312px;
+    height: 288px;
+    padding: 0;
+    position: absolute;
+    bottom: 200px;
+    left:60px ;
+    margin: 0;
+}
+.link-header {
+    display: none;
+}
+button {
+    position: absolute;
+    top: 30px;
+    display: block;
+    margin-left: 237px;
+}
+div {width: 100%;
+    height: 50%;
+    display: block;
+    
+    position:absolute;
+    top: 40px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0;
+    width: aut
+}
+
+
+h1 { 
+    width: auto;
+    line-height: 52px;
+    font-size: 36px;
+    margin: 34px 50px;
+    margin-right: 60px;
+}
+p {width: 304px;
+    margin: 4px ;
+    margin: auto 50px;
+    margin-left: 60px;
+}
+#link { font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+}
